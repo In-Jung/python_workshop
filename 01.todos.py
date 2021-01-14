@@ -33,7 +33,7 @@ while True:
                     print("{0} 일정이 수정됐습니다.".format(todo["title"]))
                     print()
     
-    elif menu=="4":       #수정필요
+    elif menu=="4":      
             delete_title =input("삭제할 일정을 입력하세요 :")
             for todo in todos:
               if todo["title"] == delete_title:                
